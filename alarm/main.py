@@ -1,4 +1,4 @@
-# Write your code here
+
 import time
 
 def set_alarm(alarm_time):
@@ -20,8 +20,8 @@ def set_alarm(alarm_time):
     seconds_until_alarm = seconds_into_day_when_alarm - seconds_into_day_when_set
 
     time.sleep(seconds_until_alarm)
-
-    print('Wake up!')
+    
+    print('Alarm!')
     
 if __name__ == '__main__':
     alarm_time = input('Enter the time for the alarm (HH:MM:SS): ')
